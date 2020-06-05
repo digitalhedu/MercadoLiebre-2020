@@ -1,0 +1,31 @@
+*{
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: #EAC926;;
+}
+
+.products .card-body a , .oferts .card-body a{
+    top: -1rem;
+    right: 1rem;
+    height: 2rem;
+    width: 2rem;
+    border-color: ;
+    text-align: center;
+    padding: .25rem;
+    color: #39b54a;
+    border-radius: 50%;
+    border: .05rem solid #39b54a;
+}
+
+.card-body.position-absolute{
+    visibility: hidden;
+    background-color: white;
+    bottom: 5%;
+    transition: all .3s ease-in;
+}
+.card-img-top:hover + .card-body.position-absolute{
+    visibility: visible;
+    bottom: 20%;
+}
